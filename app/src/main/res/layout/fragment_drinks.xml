@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68e7d8"
+    tools:context="com.example.bornittah.myapplication.fragments.DrinksFragment">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="These are drinks details sold in central market mbarara,
+please come and soften your sloute.
+they include;hard drinks and soft drinks."
+        android:textColor="#131313"
+        android:id="@+id/textView7" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soft drinks"
+        android:layout_marginTop="190dp"
+        android:textSize="20dp"
+        android:textColor="#0e0e0e"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/juice"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/imageView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard drinks"
+        android:layout_marginTop="399dp"
+        android:textSize="20dp"
+        android:textColor="#0e0e0e"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/drinks"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="20dp"
+         />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
